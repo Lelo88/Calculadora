@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CalculadoraLGV.css">
+    <script src="Principal.js" type="text/javascript" defer></script>
+    <script src="CalculadoraLGV.js" type="text/javascript"></script>
+    <script src="Display.js" type="text/javascript"></script>    
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="calculadora">
+            <div class="displayCalculadora">
+                <div id="valor-anterior"></div>
+                <div id="valor-actual"></div>
+            </div>
+            <button class="col-2" onclick="display.borrarTodo()">C</button>
+            <button onclick="display.borrar()">&larr;</button>
+            <button class="operador" value="division">/</button>
+            <button class="numero" value="7">7</button>
+            <button class="numero" value="8">8</button>
+            <button class="numero" value="9">9</button>
+            <button class="operador" value="multiplicacion">X</button>
+            <button class="numero" value="4">4</button>
+            <button class="numero" value="5">5</button>
+            <button class="numero" value="6">6</button>
+            <button class="operador" value="resta">-</button>
+            <button class="numero" value="1">1</button>
+            <button class="numero" value="2">2</button>
+            <button class="numero" value="3">3</button>
+            <button class="operador" value="suma">+</button>
+            <button class="col-2 numero" value="0">0</button>
+            <button class="numero">.</button>
+            <button class="operador" value="igual">=</button>
+        </div>
+    </div>    
+</body>
+</html>
